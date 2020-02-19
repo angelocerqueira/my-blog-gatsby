@@ -1,6 +1,7 @@
 import React from 'react';
 import { MenuBarGroup, MenuBarWrapper, MenuBarLink,MenuBarItem } from './styles';
-import { FaHome as Home, FaSearch as Search } from 'react-icons/fa';
+import { FaHome as Home, FaSearch as Search, FaRegLightbulb as Light, FaArrowUp as ArrowTop } from 'react-icons/fa';
+import { MdGridOn as Grid } from 'react-icons/md';
 
 export default function MenuBar(){
   return (
@@ -23,10 +24,13 @@ export default function MenuBar(){
 
       <MenuBarGroup>
           <MenuBarItem title="Mudar o tema">
+            <Light size={20}/>
           </MenuBarItem>
           <MenuBarItem title="Mudar a visualização">
+            <Grid size={20} />
           </MenuBarItem>
-          <MenuBarItem title="Ir para o todo">
+          <MenuBarItem title="Ir para o topo">
+            <ArrowTop size={20} />
           </MenuBarItem>
       </MenuBarGroup>
 
