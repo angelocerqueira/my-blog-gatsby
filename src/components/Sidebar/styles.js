@@ -10,6 +10,6 @@ export const ContainerSidebar = styled.aside`
   position: fixed;
   padding: 2rem;
   text-align: center;
-  background: #192732;
-  border-right: solid 1px #38444d;
+  background: var(--mediumBackground);
+  border-right: solid 1px var(--borders);
 `;

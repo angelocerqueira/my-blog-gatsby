@@ -24,6 +24,27 @@ const GlobalStyle = createGlobalStyle`
   a {
     cursor: pointer;
   }
+
+   body.dark {
+    --borders: #38444d; /*ok*/
+    --texts: #8899a6; /*ok*/
+    --postColor: #fff; /*ok*/
+    --highlight: #1fa1f2; /*ok*/
+    --mediumBackground: #192734; /*ok*/
+    --background: #16202c; /*ok*/
+    --white: #fff;
+    --black: #222;
+  }
+  body.light {
+    --borders: #dedede;
+    --postColor: #111;
+    --texts: #555555;
+    --highlight: #1fa1f2;
+    --mediumBackground: #f0f0f3;
+    --background: #fff;
+    --white: #fff;
+    --black: #222;
+  }
  `;
 
 export default GlobalStyle;

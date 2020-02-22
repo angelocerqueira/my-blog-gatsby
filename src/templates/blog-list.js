@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-// import { Container } from './styles';
+import { ListWrapper } from '../components/ListWrapper/styles';
 
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
@@ -22,6 +22,8 @@ export default function BlogList(props) {
   return (
     <Layout>
     <SEO title="Home" />
+    <ListWrapper>
+
     { postList.map(({
       node: {
         fields: { slug },
@@ -48,6 +50,7 @@ export default function BlogList(props) {
       prevPage={prevPage}
       nextPage={nextPage}
     />
+    </ListWrapper>
 
   </Layout>
   )
