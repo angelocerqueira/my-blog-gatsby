@@ -55,6 +55,7 @@ export default function MenuBar(){
           onClick={ () => {
              window.__setPreferredDisplay(isListMode ? 'grid' : 'list')
           }}
+          className="display"
           >
           { isListMode ? <Grid size={20} /> : <List size={20} /> }
           </MenuBarItem>
