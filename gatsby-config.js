@@ -9,7 +9,8 @@ module.exports = {
     author: `@angeldev`,
   },
   plugins: [
-       {
+    `gatsby-plugin-transition-link`,
+    {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         // Add any options here

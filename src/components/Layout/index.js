@@ -4,15 +4,21 @@ import { LayoutMain, LayoutWrapper } from './styles';
 import GlobalStyle from '../../styles/global';
 import Sidebar from '../Sidebar';
 import MenuBar from '../MenuBar';
-
+import { TransitionPortal } from 'gatsby-plugin-transition-link';
 
 export default function Layout({ children }) {
 return (
   <LayoutWrapper>
     <GlobalStyle />
+    <TransitionPortal>
         <Sidebar />
-      <LayoutMain>{children}</LayoutMain>
+    </TransitionPortal>
+      <LayoutMain>
+        {children}
+      </LayoutMain>
+      <TransitionPortal>
       <MenuBar/>
+      </TransitionPortal>
     </LayoutWrapper>
   );
 }
