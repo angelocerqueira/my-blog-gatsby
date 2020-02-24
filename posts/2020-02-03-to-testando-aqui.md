@@ -4,6 +4,7 @@ title: To testando aqui
 description: And I'm not sure about the universe.
 category: CSS
 background: "#1fa"
+image: "/static/assets/img/business.jpg"
 ---
 
 # Lorem ipsum

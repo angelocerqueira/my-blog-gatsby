@@ -7,6 +7,7 @@ module.exports = {
     description: `A blog about development front-end`,
     position: `Programador FullStack`,
     author: `@angeldev`,
+    siteUrl: `https://angeldev.tech`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -15,18 +16,6 @@ module.exports = {
       options: {
         // Add any options here
       },
-    },
-    {
-      resolve: 'gatsby-plugin-eslint',
-      options: {
-        test: /\.js$|\.jsx$/,
-        exclude: /(node_modules|.cache|public)/,
-        stages: ['develop'],
-        options: {
-          emitWarning: true,
-          failOnError: false
-        }
-      }
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -100,5 +89,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`,
       },
     },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
   ],
 }

@@ -18,7 +18,7 @@ export default function BlogPost({ data, pageContext }) {
     frontmatter: {
       title,
       date,
-      description } } = data.markdownRemark;
+      description, image } } = data.markdownRemark;
 
   const  next  = pageContext.nextPost;
   const  previous  = pageContext.previousPost;
@@ -26,7 +26,7 @@ export default function BlogPost({ data, pageContext }) {
 
   return (
     <Layout>
-    <SEO title={ title } />
+    <SEO title={ title } description={description} image={image} />
     <PostHeader>
       <PostDate>
         {date} - {timeToRead} minutos de leitura
@@ -59,6 +59,7 @@ export const query = graphql`
         title
         description
         date(locale: "pt-br" formatString: "DD [de] MMMM [de] YYYY")
+        image
       }
       html
       timeToRead
