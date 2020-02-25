@@ -14,10 +14,12 @@ import media from 'styled-media-query';
  `;
  export const ListWrapper = styled.ul`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
  `;
  export const ItemWrapper = styled.li`
+  margin: 10px 0;
 `;
 
 export const  Item = styled.a`

@@ -13,7 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes} className="light">
+      <body {...props.bodyAttributes} className="dark">
       <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -36,7 +36,6 @@ export default function HTML(props) {
                 } catch (err) {}
               }
               setTheme(preferredTheme || 'dark');
-
 
               window.__onDisplayChange = function() {};
               function setDisplay(newDisplay) {

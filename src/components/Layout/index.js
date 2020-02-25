@@ -10,15 +10,19 @@ export default function Layout({ children }) {
 return (
   <LayoutWrapper>
     <GlobalStyle />
+
     <TransitionPortal>
         <Sidebar />
     </TransitionPortal>
+
       <LayoutMain>
         {children}
       </LayoutMain>
+
       <TransitionPortal>
-      <MenuBar/>
+        <MenuBar/>
       </TransitionPortal>
+
     </LayoutWrapper>
   );
 }

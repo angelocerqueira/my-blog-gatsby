@@ -1,4 +1,4 @@
-const links = [
+export const links = [
   {
     label: 'Home',
     url: '/'
@@ -8,12 +8,20 @@ const links = [
     url: '/about'
   },
   {
-    label: 'Cursos',
-    url: '/courses'
+    label: 'Blog',
+    url: '/blog'
   },
   {
-    label: 'Series',
-    url: '/series'
+    label: 'Contato',
+    url: '/contato'
+  }
+
+
+];
+
+export const linksExtern = [
+  {
+    label: 'AngelDev Pro',
+    url: 'https://angeldev.tech'
   },
-]
-export default links;
+];

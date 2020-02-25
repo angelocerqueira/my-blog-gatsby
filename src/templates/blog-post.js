@@ -50,7 +50,7 @@ export default function BlogPost({ data, pageContext }) {
 }
 
 export const query = graphql`
-  query Post($slug: String!) {
+  query Posts($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       fields {
         slug

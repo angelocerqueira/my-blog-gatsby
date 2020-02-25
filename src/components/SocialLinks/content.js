@@ -7,18 +7,18 @@ const links = [
   {
     label: "Github",
     url: "https://github.com/angelocerqueira",
-    icon: <FaGithub size={20} />
+    icon: <FaGithub size={30} />
   },
   {
     label: "Instagram",
     url: "https://www.instagram.com/_angelocerqueira",
-    icon: <FaInstagram size={20} />
+    icon: <FaInstagram size={30} />
 
   },
   {
     label: "Linkedin",
     url:"https://www.linkedin.com/in/angelo-cerqueira",
-    icon: <FaLinkedin size={20}/>
+    icon: <FaLinkedin size={30}/>
 
   },
 ];

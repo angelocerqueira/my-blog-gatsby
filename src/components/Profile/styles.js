@@ -8,6 +8,7 @@ export const ContainerProfile = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-between;
   color: var(--texts);
 `;
 
@@ -38,7 +39,7 @@ ${ media.lessThan("large")`
 `;
 
 export const ProfileAuthor = styled.h1`
-  font-size: 20px;
+  font-size: 12px;
   font-weight: bold;
   margin-top: 5px;
 
@@ -50,7 +51,7 @@ export const ProfileAuthor = styled.h1`
 `;
 
 export const ProfilePosition = styled.small`
-  font-size: 16px;
+  font-size: 10px;
   font-weight: bold;
   margin-top: 5px;
 `;
