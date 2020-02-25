@@ -9,8 +9,8 @@ export default function Sidebar() {
 return (
   <ContainerSidebar>
     <Profile/>
-    <SocialLinks/>
     <MenuLinks/>
+    <SocialLinks/>
   </ContainerSidebar>
 )
 

@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { MenuBarGroup, MenuBarWrapper, MenuBarLink,MenuBarItem } from './styles';
-import { FaHome as Home, FaSearch as Search, FaRegLightbulb as Light, FaArrowUp as ArrowTop, FaThList as List } from 'react-icons/fa';
+import {
+  FaHome as Home,
+  FaSearch as Search,
+  FaRegLightbulb as Light,
+  // FaArrowUp as ArrowTop,
+  FaThList as List
+ } from 'react-icons/fa';
 
-import { AiFillAppstore as Grid } from 'react-icons/ai';
+ import { AiFillAppstore as Grid } from 'react-icons/ai';
+import getThemeColor from '../../utils/getThemeColor';
 
 
 export default function MenuBar(){
@@ -25,12 +32,24 @@ export default function MenuBar(){
   return (
     <MenuBarWrapper>
       <MenuBarGroup>
-        <MenuBarLink to="/" title="Voltar para a home">
+        <MenuBarLink
+        to="/"
+        cover
+        direction="left"
+        bg={getThemeColor()}
+        duration={0.6}
+        title="Voltar para a home">
           <MenuBarItem>
             <Home size={20}/>
           </MenuBarItem>
         </MenuBarLink>
-        <MenuBarLink to="/search" title="Pesquisar">
+        <MenuBarLink
+        cover
+        direction="left"
+        bg={getThemeColor()}
+        duration={0.6}
+        to="/search"
+        title="Pesquisar">
           <MenuBarItem>
             <Search size={20} />
           </MenuBarItem>
@@ -43,7 +62,7 @@ export default function MenuBar(){
       <MenuBarGroup>
           <MenuBarItem
           title="Mudar o tema"
-          onClick={() => {
+          onClick={ () => {
             window.__setPreferredTheme(isDarkMode ? 'light': 'dark')
           }}
           className={theme}
@@ -59,9 +78,9 @@ export default function MenuBar(){
           >
           { isListMode ? <Grid size={20} /> : <List size={20} /> }
           </MenuBarItem>
-          <MenuBarItem title="Ir para o topo">
+          {/* <MenuBarItem title="Ir para o topo">
             <ArrowTop size={20} />
-          </MenuBarItem>
+          </MenuBarItem> */}
       </MenuBarGroup>
 
     </MenuBarWrapper>

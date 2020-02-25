@@ -8,10 +8,18 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: #16202c;
+    background: var(--background);
     line-height: 1;
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  ::-moz-selection{
+    background: var(--highlight);
+    color:#FFF;
+  }
+  ::selection {
+    background:var(--highlight);
+    color:#FFF;
   }
   ol, ul,li {
     list-style: none;
@@ -24,27 +32,41 @@ const GlobalStyle = createGlobalStyle`
   a {
     cursor: pointer;
   }
-
    body.dark {
     --borders: #38444d; /*ok*/
+    --border-side: #9159c1;
     --texts: #8899a6; /*ok*/
     --postColor: #fff; /*ok*/
-    --highlight: #1fa1f2; /*ok*/
-    --mediumBackground: #192734; /*ok*/
-    --background: #16202c; /*ok*/
+    --highlight: #9159c1; /*ok*/
+    --mediumBackground: #111; /*ok*/
+    --background: #222333; /*ok*/
     --white: #fff;
     --black: #222;
+    --shadow: #000;
+    --hover-recommendeds: #9159c1;
+    --titleHomeBg1:#9159c1;
+    --titleHomeBg2:#a8c0ff;
+    --cta2: #54009D;
+    --cta1: #a8c0ff;
   }
+
   body.light {
-    --borders: #dedede;
+    --borders: #ddd;
+    --border-side: #ccc;
     --postColor: #111;
-    --texts: #555555;
-    --highlight: #1fa1f2;
-    --mediumBackground: #f0f0f3;
-    --background: #fff;
+    --texts: #333;
+    --highlight: #2575fc;
+    --mediumBackground: #D3CCE3;
+    --background:#ccc;
     --white: #fff;
     --black: #222;
+    --shadow: #ddd;
+    --hover-recommendeds: #2575fc;
+    --titleHomeBg1: #6a11cb;
+    --titleHomeBg2:#2575fc;
+    --cta1: #6a11cb;
+    --cta2: #2575fc;
   }
- `;
+`;
 
 export default GlobalStyle;

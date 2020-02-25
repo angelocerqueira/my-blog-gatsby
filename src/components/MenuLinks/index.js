@@ -1,10 +1,12 @@
 import React from 'react';
 import { MenuLinksWrapper, ListWrapper, Item , ItemLink} from './styles';
-import links from './content';
+import {links } from './content';
 import getThemeColor from '../../utils/getThemeColor';
 
 export default function MenuLinks(){
-return (
+
+
+  return (
   <MenuLinksWrapper>
   <ListWrapper>
     {links.map((link, i) => (

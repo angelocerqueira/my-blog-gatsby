@@ -25,7 +25,8 @@ export const RecommendedLink = styled(Link)`
   transition: background 0.5s;
   width: 50%;
   &:hover {
-    background: var(--borders);
+    background: var(--hover-recommendeds);
+    color: var(--white);
   }
   &.previous {
     border-right: 1px solid var(--borders);

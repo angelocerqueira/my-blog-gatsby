@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavWrapper, ListWrapper, Item, ItemWrapper, IconWrapper } from './styles';
+import {NavWrapper, ListWrapper, Item, ItemWrapper } from './styles';
 import links from './content';
 export default function  SocialLinks(){
 
