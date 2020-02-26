@@ -20,6 +20,7 @@ module.exports = {
         color: `#9159c1`
       }
     },
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-styled-components`,
@@ -96,7 +97,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/logo.png`,
       },
     },
     `gatsby-plugin-sitemap`,

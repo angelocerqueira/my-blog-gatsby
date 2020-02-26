@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: angelocerqueira/my-blog-gatsby
+  branch: master
+  site_domain: https://angeldev.netlify.com/
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - { label: "Background",
+        name: "background",
+        widget: "select",
+        options: [
+          { label: "JavaScript", value: "#f7ff00" },
+          { label: "CSS", value: "#009fff" },
+          { label: "HTML", value: "#fc4a1a" },
+          { label: "ReactJS", value: "#6dd5ed" },
+          { label: "React Native", value: "#4a00e0" },
+          { label: "NodeJS", value: "#00f260" },
+          { label: "Gatsby", value: "#4a00e0" }]}
+      - {
+        label: "Category",
+        name: "category",
+        widget: "select",
+        options: ["JavaScript", "CSS", "HTML", "ReactJS", "React Native", "NodeJS", "Freelancer", "Remoto", "Gatsby", "Dicas", "Filmes", "Livros", "Series", "Eventos", "Viagens"]}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: 'YYYY-MM-DD hh:mm:ss'}
+      - {label: "Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
