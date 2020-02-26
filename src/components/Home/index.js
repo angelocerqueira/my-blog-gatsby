@@ -5,12 +5,11 @@ import getThemeColor from '../../utils/getThemeColor';
 
 export default function Home() {
   return (
-    <>
       <ContainerWrapper >
-        <Typist className="MyTypist">
+        <Typist>
           <Title>
             <Typist.Delay ms={2000} />
-            Hi,
+            Oi,
             <br/>
             eu sou <span>Ângelo</span>,
             <br/>
@@ -19,7 +18,7 @@ export default function Home() {
           </Title>
           <Typist.Delay ms={500} />
           <Cta
-          to="/about"
+          to="/contact"
           cover
           direction="top"
           duration={0.6}
@@ -29,6 +28,5 @@ export default function Home() {
           </Cta>
         </Typist>
       </ContainerWrapper>
-</>
   );
 }

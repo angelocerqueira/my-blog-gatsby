@@ -34,7 +34,7 @@ export const  Item = styled.a`
 
 
 export const IconWrapper = styled.div`
-  fill: #bbb;
+  fill: var(--texts);
   width: 30px;
   height: 30px;
 `;

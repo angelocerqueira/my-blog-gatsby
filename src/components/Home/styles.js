@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import AniLink from 'gatsby-plugin-transition-link/AniLink';
+import media from 'styled-media-query';
+
 
 export const ContainerWrapper = styled.div`
   color: var(--postColor);
@@ -19,6 +21,9 @@ export const Title = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 40px;
+  ${media.lessThan("large")`
+    font-size: 2em;
+  ` };
   span {
     background: var(--titleHomeBg1);
     -webkit-background-clip: text;
@@ -28,9 +33,9 @@ export const Title = styled.h1`
 
 export const Cta = styled(AniLink)`
   border: 0;
-  background: var(--cta2);  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, var(--cta1), var(--cta2));  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, var(--cta1), var(--cta2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--cta2);
+  background: -webkit-linear-gradient(to right, var(--cta1), var(--cta2));
+  background: linear-gradient(to right, var(--cta1), var(--cta2));
   padding: 20px;
   color: var(--white);
   border-radius: 10px;
@@ -38,9 +43,13 @@ export const Cta = styled(AniLink)`
   text-transform: uppercase;
   transition:  background  4s ease-in-out;
   &:hover {
-    background: var(--cta2);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right,var(--cta2), var(--cta1));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, var(--cta2), var(--cta1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: var(--cta2);
+    background: -webkit-linear-gradient(to right,var(--cta2), var(--cta1));
+    background: linear-gradient(to right, var(--cta2), var(--cta1));
   }
+  ${media.lessThan("large")`
+  padding: 10px 15px;
+
+  ` };
 `;
 

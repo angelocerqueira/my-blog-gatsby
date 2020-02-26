@@ -57,8 +57,6 @@ export default function HTML(props) {
               setDisplay(preferredDisplay || 'list');
 
             })();
-
-
           `,
           }}
         />

@@ -13,7 +13,7 @@ export const links = [
   },
   {
     label: 'Contato',
-    url: '/contato'
+    url: '/contact'
   }
 
 

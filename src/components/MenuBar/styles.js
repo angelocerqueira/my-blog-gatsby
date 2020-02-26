@@ -26,7 +26,6 @@ export const MenuBarWrapper = styled.aside`
     position: fixed;
     width: 100%;
     box-shadow: none;
-
   `}
 `;
 
