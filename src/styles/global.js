@@ -32,6 +32,8 @@ const GlobalStyle = createGlobalStyle`
   a {
     cursor: pointer;
   }
+
+
    body.dark {
     --borders: #38444d; /*ok*/
     --border-side: #9159c1;
@@ -52,12 +54,12 @@ const GlobalStyle = createGlobalStyle`
 
   body.light {
     --borders: #ddd;
-    --border-side: #ccc;
+    --border-side: #2575fc;
     --postColor: #111;
     --texts: #333;
     --highlight: #2575fc;
-    --mediumBackground: #D3CCE3;
-    --background:#ccc;
+    --mediumBackground: #a8c0ff;
+    --background:#eee;
     --white: #fff;
     --black: #222;
     --shadow: #ddd;
@@ -67,6 +69,7 @@ const GlobalStyle = createGlobalStyle`
     --cta1: #6a11cb;
     --cta2: #2575fc;
   }
+
 `;
 
 export default GlobalStyle;

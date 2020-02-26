@@ -24,5 +24,6 @@ export const ContainerSidebar = styled.aside`
     padding: 1rem 2rem;
     width: 100%;
     z-index: 1000;
+    flex-direction: row;
   `}
 `;

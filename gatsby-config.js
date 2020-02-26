@@ -3,13 +3,23 @@ const queries = require('./src/utils/algolia_queries.js');
 
 module.exports = {
   siteMetadata: {
-    title: `Projeto Gatsby`,
-    description: `A blog about development front-end`,
-    position: `Programador FullStack`,
+    title: `Angel Dev`,
+    description: `Um blog sobre desenvolvimento de software, dicas, viagens! `,
+    position: `Programador FullStack | UI/UX`,
     author: `@angeldev`,
     siteUrl: `https://angeldev.tech`
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        includePaths: ['/about',{ regex: "^/blog" }],
+        excludePaths: ["/blog/beep-beep-lettuce"],
+        height: 7,
+        prependToBody: true,
+        color: `#9159c1`
+      }
+    },
     `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-styled-components`,

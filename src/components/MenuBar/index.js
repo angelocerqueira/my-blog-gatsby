@@ -4,12 +4,13 @@ import {
   FaHome as Home,
   FaSearch as Search,
   FaRegLightbulb as Light,
-  // FaArrowUp as ArrowTop,
+  FaArrowUp as ArrowTop,
   FaThList as List
  } from 'react-icons/fa';
 
- import { AiFillAppstore as Grid } from 'react-icons/ai';
+import { AiFillAppstore as Grid } from 'react-icons/ai';
 import getThemeColor from '../../utils/getThemeColor';
+
 
 
 export default function MenuBar(){
@@ -19,15 +20,21 @@ export default function MenuBar(){
   const isDarkMode = theme === 'dark';
   const isListMode = display === 'list';
 
-  useEffect(() => {
+  useEffect( () => {
     setTheme(window.__theme);
     window.__onThemeChange = () => setTheme(window.__theme)
-  }, [])
-
-  useEffect( () => {
     setDisplay(window.__display);
     window.__onDisplayChange = () => setDisplay(window.__display)
   }, [])
+
+  function scrollStep() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+
 
   return (
     <MenuBarWrapper>
@@ -78,9 +85,12 @@ export default function MenuBar(){
           >
           { isListMode ? <Grid size={20} /> : <List size={20} /> }
           </MenuBarItem>
-          {/* <MenuBarItem title="Ir para o topo">
+          <MenuBarItem
+          title="Ir para o topo"
+          onClick={() => { scrollStep() }}
+          >
             <ArrowTop size={20} />
-          </MenuBarItem> */}
+          </MenuBarItem>
       </MenuBarGroup>
 
     </MenuBarWrapper>
