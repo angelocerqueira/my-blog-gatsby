@@ -21,7 +21,7 @@ export default function BlogList(props) {
 
   return (
     <Layout>
-    <SEO title="Home" />
+    <SEO title="Blog" />
     <ListWrapper>
 
     { postList.map(({
