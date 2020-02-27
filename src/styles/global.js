@@ -69,7 +69,6 @@ const GlobalStyle = createGlobalStyle`
     --cta1: #6a11cb;
     --cta2: #2575fc;
   }
-
 `;
 
 export default GlobalStyle;

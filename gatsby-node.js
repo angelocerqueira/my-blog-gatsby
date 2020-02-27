@@ -2,21 +2,6 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
 
 
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-  if (stage === "build-html") {
-    actions.setWebpackConfig({
-      module: {
-        rules: [
-          {
-            test: /bad-module/,
-            use: loaders.null(),
-          },
-        ],
-      },
-    })
-  }
-}
-
 // To add the slug field to each post
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions

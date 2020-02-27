@@ -62,7 +62,6 @@ export const ItemLink = styled(Anilink)`
   color: var(--texts);
   text-decoration: none;
   transition: color 0.5s;
-
   &:hover{
     color: var(--highlight);
   }
