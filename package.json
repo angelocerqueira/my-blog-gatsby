@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "my-blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A blog about develpment",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Angelo Cerqueira <angelocerqueira_@outlook.com>",
   "dependencies": {
     "@loadable/component": "^5.12.0",
     "algoliasearch": "^4.0.3",
