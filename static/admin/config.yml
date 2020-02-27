@@ -2,7 +2,7 @@ backend:
   name: github
   repo: angelocerqueira/my-blog-gatsby
   branch: master
-  site_domain: https://angeldev.netlify.com/
+  site_domain: http://angeldev.tech/
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
