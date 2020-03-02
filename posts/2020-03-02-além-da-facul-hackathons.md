@@ -9,7 +9,7 @@ date: '2020-03-02 01:35:02'
 thumbnail: assets/img/hackathon.png
 ---
 <p>
-<img src="https://149358108.v2.pressablecdn.com/wp-content/uploads/2014/06/CHD-judges-dance.gif">
+<img src="https://149358108.v2.pressablecdn.com/wp-content/uploads/2014/06/CHD-judges-dance.gif" title="Hackathons">
 </p>
 
 # Hi Huys, 
@@ -18,13 +18,13 @@ thumbnail: assets/img/hackathon.png
 
 Eu participei de dois Hackathons no último ano e posso te afirmar cada um foi uma experiência única. E inclusive já estou planejando em quais irei este ano de 2020, hahah
 
-### Mas afinal de contas, o que é um hackathon? 
+## Mas afinal de contas, o que é um hackathon? 
 
 Um hackathon é uma maratona de programação, onde se reúnem times com o objetivo de propor uma solução inovadora e escalável para determinado serviço ou produto. 
 
 Hoje em dia o hackathon não está mais limitado apenas a programadores, muito pelo contrário, o ideal é ter equipes multidisplinares, seja os membros desenvolvedores de software, designers, marketeiros, administradores, etc. Não há fronteiros. 
 
-### E como esse tal de hackathon surgiu? 
+## E como esse tal de hackathon surgiu? 
 
 Ninguém sabe ao certo quando surgiu, mas foi na década de 90 que o termo teve suas primeiras aparições. A palavra hackathon é resultado da junção dos termos hack (no sentido de programar com expertise) e marathon (maratona).
 
@@ -32,11 +32,11 @@ Em junho de 1999, nos Estados Unidos, desenvolvedores de OpenBSD, se reuniram em
 
 Os hackathons se popularizaram tanto que passaram a ser organizados por empresas, universidade, governos, bancos e até igrejas.
 
-### E quanto tempo dura um hackathon?
+## E quanto tempo dura um hackathon?
 
 E a resposta é... depende. Depende muito da abordagem de quem está realizando, do prósito, do tema, etc. Ele pode durar de horas até semanas. Por exemplo, o hackathon da Visa que eu participei em fereveiro teve duração de 24 horas nonstop (descrevo essa experiência abaixo). 
 
-### E por que eu deveria participar? O que eu ganho com isso?
+## E por que eu deveria participar? O que eu ganho com isso?
 
 Já parou para pensar que a maioria dos jovens saem da faculdade sem nenhuma experiência profissional? ou melhor, saem da universade sem nunca terem testados suas hard e soft skills?
 Isso é um pouco preocupante para o nosso atual cenário, onde tudo muda muito rápido e acelerado, como diz o Murilo Gun: 
@@ -51,12 +51,12 @@ Aah, e muitos times acabam virando startups e fazendo sucesso.
 
 E se eu ainda não te convenci, olha só mais essa. Os hackathons sempre dão premiações para as equipes vencedoras. Podem ser viagens, mentorias, aceleração, prêmio em dinheiro e muitas outras coisas. 
 
-### Ta, me convenceu! E como fico sabendo desses eventos? 
+## Tá, me convenceu! E como fico sabendo desses eventos? 
 Muito simples! Existe uma statup chamada [Shawee](https://shawee.io/) que é especialista em organizar esse tipo de evento, dá uma olhada. 
 Outra forma é ficar ligado no [Linkedin](https://linkedin.com), as empresas sempre divulgam lá. 
-E uma terceira maneira é da uma `googlada`.  
+E uma terceira maneira é dar uma `googlada`. Pesquisa por hackathon e a cidade que deseja participar, provavelmente deve ter algum (ou nas proximidades).  
 
-### Agora me conta sua experiência com hackathons! :) 
+## Agora me conta sua experiência com hackathons! :) 
 
 Tá bom, vou começar falando sobre o hackthon da NASAA! haha Isso mesmo.
 
@@ -86,8 +86,23 @@ Dá uma olhada aí nos [vencedores](https://2019.spaceappschallenge.org/location
 
 #### VISA
 
-Esse eu participei em Feveiro de 2019. Organizado pela Shawee, a visa realizou um hackthon dentro da [Campus Party](https://brasil.campus-party.org/) em São Paulo. 
+Esse eu participei em Feveiro de 2019. Organizado pela Shawee, a Visa realizou um hackthon dentro da [Campus Party](https://brasil.campus-party.org/) em São Paulo. 
 
+Eu na ocasião estava participando da Campus Party e fiquei sabendo deste hackathon me inscrivi e fui selecionado. 
+
+O desafio era: `Em 24 horas criar uma solução que envolvesse transação comercial entre empresas (B2B), de modo a otimizar pagamentos e/ou recebimentos e dar mais segurança às transações. Deverão desenvolver soluções digitais com foco preferencial em proteção de dados, uso das informações dos consumidores, inteligência artificial, automação, processos eletrônicos e big data.`
+
+Pode ver mais detalhes [aqui](https://campuse.ro/challenges/hackathon-visa/).
+
+Com uma equipe formada por cinco pessoas, nossa solução foi criar uma plataforma centralizadora de boletos e contas. E aproveitando todos os limites disponíveis dos cartão do usuários geraríamos um único cartão de crédito corporativo para que pudesse usar da forma que achasse melhor. 
+
+Mas também não foi dessa vez.  (Ná próxima vai,  haha)
+
+Comenta aqui em baixo se esse texto foi útil para você. 
+
+Abraço, até mais!! 
+
+![bye](https://media.giphy.com/media/kaBU6pgv0OsPHz2yxy/giphy.gif)
 
 
 
