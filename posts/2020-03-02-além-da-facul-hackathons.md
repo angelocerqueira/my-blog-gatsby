@@ -12,7 +12,7 @@ thumbnail: assets/img/hackathon.png
 <img src="https://149358108.v2.pressablecdn.com/wp-content/uploads/2014/06/CHD-judges-dance.gif" title="Hackathons">
 </p>
 
-# Hi Huys, 
+# Hi Guys, 
 
 É isso mesmo, hoje vou falar sobre hackathons e minha experiência com eles. 
 
