@@ -43,22 +43,22 @@ Isso é um pouco preocupante para o nosso atual cenário, onde tudo muda muito r
 
 > “Hoje, os problemas estão mudando de forma rápida e acelerada. Por isso, a criatividade é indispensável para todo mundo, porque, para demandas novas é preciso soluções novas”.
 
-E meus amigos, o hackathon é uma das melhores formas de você conseguir experiência e até somar seu portfolio com a solução que você e o seu time irá propor. 
+E meus amigos, o hackathon é uma das melhores formas de você conseguir experiência e até somar seu portfólio com a solução que você e o seu time irá propor. 
 
-Além de testar suas habilidades hhackthons proporcional um rico networking. Você irá encontrar profissional de todas as áreas e muitos desses profissionais são empreendedores, que podem vir a gostar do seu perfil e boooom, ta contratado. 
+Além de testar suas habilidades, os hackathons proporcionam um rico networking. Você irá encontrar profissionais de todas as áreas e muitos desses profissionais são empreendedores, que podem vir a gostar do seu perfil e boooom... ta contratado. 
 
 Aah, e muitos times acabam virando startups e fazendo sucesso. 
 
 E se eu ainda não te convenci, olha só mais essa. Os hackathons sempre dão premiações para as equipes vencedoras. Podem ser viagens, mentorias, aceleração, prêmio em dinheiro e muitas outras coisas. 
 
 ## Tá, me convenceu! E como fico sabendo desses eventos? 
-Muito simples! Existe uma statup chamada [Shawee](https://shawee.io/) que é especialista em organizar esse tipo de evento, dá uma olhada. 
+Muito simples! Existe uma startup chamada [Shawee](https://shawee.io/) que é especialista em organizar esse tipo de evento, dá uma olhada. 
 Outra forma é ficar ligado no [Linkedin](https://linkedin.com), as empresas sempre divulgam lá. 
 E uma terceira maneira é dar uma `googlada`. Pesquisa por hackathon e a cidade que deseja participar, provavelmente deve ter algum (ou nas proximidades).  
 
 ## Agora me conta sua experiência com hackathons! :) 
 
-Tá bom, vou começar falando sobre o hackthon da NASAA! haha Isso mesmo.
+Tá bom, vou começar falando sobre o hackathon da NASAA! 
 
 #### NASA
  
