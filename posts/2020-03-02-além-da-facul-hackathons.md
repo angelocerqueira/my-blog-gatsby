@@ -8,9 +8,7 @@ description: >-
 date: '2020-03-02 01:35:02'
 thumbnail: assets/img/hackathon.png
 ---
-<p>
-<img src="https://149358108.v2.pressablecdn.com/wp-content/uploads/2014/06/CHD-judges-dance.gif" title="Hackathons">
-</p>
+![Hackathons](https://149358108.v2.pressablecdn.com/wp-content/uploads/2014/06/CHD-judges-dance.gif)
 
 # Hi Guys, 
 
