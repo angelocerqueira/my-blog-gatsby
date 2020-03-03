@@ -14,25 +14,25 @@ thumbnail: assets/img/hackathon.png
 
 É isso mesmo, hoje vou falar sobre hackathons e minha experiência com eles. 
 
-Eu participei de dois Hackathons no último ano e posso te afirmar cada um foi uma experiência única. E inclusive já estou planejando em quais irei este ano de 2020, hahah
+Eu participei de dois Hackathons no último ano e posso te afirmar que cada um foi uma experiência única. E inclusive já estou planejando em quais irei este ano de 2020, hahah
 
 ## Mas afinal de contas, o que é um hackathon? 
 
 Um hackathon é uma maratona de programação, onde se reúnem times com o objetivo de propor uma solução inovadora e escalável para determinado serviço ou produto. 
 
-Hoje em dia o hackathon não está mais limitado apenas a programadores, muito pelo contrário, o ideal é ter equipes multidisplinares, seja os membros desenvolvedores de software, designers, marketeiros, administradores, etc. Não há fronteiros. 
+Hoje em dia o hackathon não está mais limitado apenas a programadores, muito pelo contrário, o ideal é ter equipes multidisplinares, seja os membros desenvolvedores de software, designers, marketeiros, administradores, etc. Não há fronteiras. 
 
 ## E como esse tal de hackathon surgiu? 
 
 Ninguém sabe ao certo quando surgiu, mas foi na década de 90 que o termo teve suas primeiras aparições. A palavra hackathon é resultado da junção dos termos hack (no sentido de programar com expertise) e marathon (maratona).
 
-Em junho de 1999, nos Estados Unidos, desenvolvedores de OpenBSD, se reuniram em 10 desenvolvedores para criar uma nova criptografia, ou, na mesma época, durante uma conferência da Sun e dentro de uma semana criaram IPv6 (Internet Protocol versão 6) e IPSEC (Protocolo de segurança IP) completamente integradas em um sistema operacional.
+Em junho de 1999, nos Estados Unidos, desenvolvedores da OpenBSD, se reuniram em 10 para criar uma nova criptografia. Na mesma época, durante uma conferência da Sun e dentro de uma semana criaram IPv6 (Internet Protocol versão 6) e IPSEC (Protocolo de segurança IP) completamente integradas em um sistema operacional.
 
 Os hackathons se popularizaram tanto que passaram a ser organizados por empresas, universidade, governos, bancos e até igrejas.
 
 ## E quanto tempo dura um hackathon?
 
-E a resposta é... depende. Depende muito da abordagem de quem está realizando, do prósito, do tema, etc. Ele pode durar de horas até semanas. Por exemplo, o hackathon da Visa que eu participei em fereveiro teve duração de 24 horas nonstop (descrevo essa experiência abaixo). 
+E a resposta é... depende. Depende muito da abordagem de quem está realizando, do propósito, do tema, etc. Ele pode durar de horas até semanas. Por exemplo, o hackathon da Visa que eu participei em fevereiro teve duração de 24 horas `nonstop` (descrevo essa experiência abaixo). 
 
 ## E por que eu deveria participar? O que eu ganho com isso?
 
