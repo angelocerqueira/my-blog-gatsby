@@ -1,5 +1,5 @@
 ---
-title: Além da Facul - Hackathons
+title: Alem da Facul - Hackathons
 background: '#4a00e0'
 category: Dicas
 description: >-
