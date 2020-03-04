@@ -1,42 +1,37 @@
 ---
-date: 2020-02-03 05:54:23
-title: To testando aqui
-description: And I'm not sure about the universe.
-category: CSS
-background: "#1fa"
-image: "/static/assets/img/business.jpg"
+title: 'O que esperar desse blog? '
+background: '#f7ff00'
+category: Dicas
+description: >-
+  Descrevo o motido do por que criei esse blog e principais assuntos que irei
+  abordar
+date: 2020-02-03T05:54:23.000Z
+thumbnail: assets/img/business.jpg
 ---
+# Hi guys,
 
-# Lorem ipsum
+[Eu](https://angeldev.tech/about) sempre procuro por ótimos conteúdos relacionados a desenvolvimento de software, freelancer, nomadismo, viagens, empreeenderismo, eventos, afinal essas são minhas paixões. Mas a questão é que nem sempre acho algo relevante tão rápido. E na maioria das vezes eu acabo por encontrar esse conteúdo em outro idioma, como o inglês por exemplo.
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
+Então decidi começar a compartilhar essas informações juntamente com minhas experiências pessoais e profissionais. Embora ainda sejam poucas, mas já pode vir a ser útil para alguém. Imagina em cinco anos?   
+Esse blog vai está riquíssimo de bons conteúdos.
 
-![Business](/static/assets/img/business.jpg)
+## O que esperar? 
 
-## Fusce a metus eu
+Quero de certa forma poder interagir com cada pessoa pessoal que acessar. Fazer networking e ajudar no que tiver ao meu alcance. Na pagina de [contato](https://angeldev.tech/contact) você pode escolher a melhor forma de conversar comigo, ok? 
 
-Pellentesque `sed` sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+Além disso, manter uma boa frequência de posts semanais, que eu tenho certeza que vão ajudar vocês a se tornarem pessoas e profissionais cada vez melhores, acima da média. 
 
-> Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.
+Então se liga no conteúdo: 
 
-Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum.
+- Eu vou falar de mercado e das tecnologias que as empresas mais tem demandas e o porque.
+- Freelancer e trabalho remoto e nomadismo digital.
+- Dicas de como empreender nos dias atuais. 
+- Eventos de tecnologia, comunidades. 
+- Cursos, bootcamps. 
+- Idiomas. 
+- E outros (pode vir aparecer algo que eu queira compartilhar que não esteja listado aqui, ahahah)
 
-### Cras semper consectetur elementum
+É isso pessoal, vamos pra cima. Abraço!
 
-Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
 
-#### Proin suscipit luctus
-
-Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
-
-- Lorem
-- Ipsum
-- Dolor
-- Sit
-- amet
-
-#### Sed enim mi
-
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
