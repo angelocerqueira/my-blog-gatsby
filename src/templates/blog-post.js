@@ -29,7 +29,7 @@ export default function BlogPost({ data, pageContext }) {
     <SEO title={ title } description={description} image={image} />
     <PostHeader>
       <PostDate>
-        {date} - {timeToRead} minutos de leitura
+        {date} - {timeToRead} min de leitura
       </PostDate>
       <PostTitle>{ title }</PostTitle>
       <PostDescription>
