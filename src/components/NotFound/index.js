@@ -19,8 +19,8 @@ export default function NotFound() {
     <ContainerWrapper>
       <Lottie
       options={defaultOptions}
-      width={500}
-      height={300}
+      width={200}
+      height={200}
       speed={.6}
       />
 

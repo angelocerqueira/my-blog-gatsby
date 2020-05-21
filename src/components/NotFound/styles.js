@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import Anilink from 'gatsby-plugin-transition-link/AniLink';
+import media from 'styled-media-query';
+
 
 export const ContainerWrapper = styled.section`
   display: flex;
@@ -16,6 +18,9 @@ export const TobackTitle = styled.h1`
   color: var(--texts);
   text-align: center;
   margin-bottom: 50px;
+  ${media.lessThan("large")`
+    font-size: 1.3em;
+  `};
 `;
 
 export const Button = styled(Anilink)`
@@ -28,6 +33,9 @@ export const Button = styled(Anilink)`
   &:hover {
     transform: scale(1.2);
   }
+  ${media.lessThan("large")`
+      margin-bottom: 30px;
+  `};
 `;
 
 

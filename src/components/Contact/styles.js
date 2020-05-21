@@ -28,14 +28,14 @@ export const ContactTitle = styled.h1`
 `
 export const ContactDescription = styled.h2`
   font-size: 2rem;
-    line-height: 1.5;
+  line-height: 1.5;
   font-weight: 200;
   padding: 0 1.4rem;
   ${media.lessThan("large")`
     font-size: 1.6rem;
     line-height: 1.3;
     padding: 0 1rem;
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 
   `}
 `
@@ -50,6 +50,7 @@ export const MainContent = styled.section`
   ${media.lessThan("large")`
     flex-direction: column-reverse;
     margin-top: 20px;
+    max-width: 100%;
   `};
 `;
 
@@ -69,15 +70,13 @@ margin: 10px 0;
 display: flex;
 align-items: center;
 color: var(--texts);
-&:hover{
+  &:hover{
     color: var(--highlight);
   }
-
   ${media.lessThan("large")`
-    margin: 50px 20px;
+    margin: 20px 20px;
   `};
 `;
-
 
 export const  Item = styled.a`
   color: var(--texts);
@@ -89,10 +88,14 @@ export const  Item = styled.a`
   &:hover{
     color: var(--highlight);
   }
+  ${media.lessThan("large")`
+    width: 35px;
+    height: 35px;
+  `};
   span{
     margin-left: 10px;
     ${media.lessThan("large")`
-  display: none;
+      display: none;
   `};
   }
 

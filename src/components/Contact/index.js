@@ -36,8 +36,8 @@ export default function Contact() {
     </div>
 
     <Lottie options={defaultOptions}
-              height={300}
-              width={300}
+              height={200}
+              width={200}
               />
     </MainContent>
     </>

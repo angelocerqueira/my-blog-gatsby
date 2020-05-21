@@ -11,7 +11,7 @@ const links = [
   },
   {
     label: "Instagram",
-    url: "https://www.instagram.com/_angelocerqueira",
+    url: "https://www.instagram.com/_angelDev",
     icon: <FaInstagram size={50} />
 
   },
@@ -22,15 +22,9 @@ const links = [
   },
   {
     label: "WhatsApp",
-    url:"https://wa.me/5565981463053",
+    url:"https://wa.me/5565981624739",
     icon: <FaWhatsapp size={50}/>
   },
-  {
-    label: "Email",
-    url:"mailto:angelocerqueira_@outlook.com",
-    icon: <IoMdMail size={50}/>
-  },
-
 ];
 
 export default links;
