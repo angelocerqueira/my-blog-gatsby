@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: angelocerqueira/my-blog-gatsby
   branch: master
   site_domain: https://angeldev.netlify.com/
